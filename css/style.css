@@ -1,0 +1,61 @@
+@import url("https://use.typekit.net/sfn1efw.css");
+/* line 10, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/Development/HTML Site/css/style.sass */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 14, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/Development/HTML Site/css/style.sass */
+body {
+  font-family: proxima-nova, sans-serif;
+  background: red; }
+
+/* line 21, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/Development/HTML Site/css/style.sass */
+section#inicio {
+  float: left;
+  width: 100%;
+  height: 100vh; }
+
+/* line 27, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/Development/HTML Site/css/style.sass */
+section.paginafull#inicio article#holahello {
+  width: 200px;
+  height: 100vh;
+  float: left;
+  overflow: hidden;
+  background: #e0e0e0; }
+  /* line 34, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/Development/HTML Site/css/style.sass */
+  section.paginafull#inicio article#holahello div {
+    width: 25.5vh;
+    width: calc(var(--vh, 1vh)*25.5);
+    -webkit-transform: rotate(-90deg) translate(-100vh);
+    transform: rotate(-90deg) translate(-100vh);
+    -webkit-transform: rotate(-90deg) translate(calc(var(--vh, 1vh)*-100));
+    transform: rotate(-90deg) translate(calc(var(--vh, 1vh)*-100));
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    white-space: nowrap; }
+    /* line 45, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/Development/HTML Site/css/style.sass */
+    section.paginafull#inicio article#holahello div span {
+      display: inline-block;
+      font-size: 12em;
+      font-family: proxima-nova, sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: calc(var(--vh, 1vh)*25);
+      animation: animatetext 40s linear infinite; }
+      /* line 54, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/Development/HTML Site/css/style.sass */
+      section.paginafull#inicio article#holahello div span ul li {
+        list-style: none;
+        display: inline;
+        padding: 0 5px;
+        color: #000; }
+      /* line 60, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/Development/HTML Site/css/style.sass */
+      section.paginafull#inicio article#holahello div span ul li:nth-child(odd) {
+        color: #ec1c24; }
+
+@keyframes animatetext {
+  0% {
+    transform: translateX(0); }
+  100% {
+    transform: translateX(-100%); } }
+
+/*# sourceMappingURL=style.css.map */
