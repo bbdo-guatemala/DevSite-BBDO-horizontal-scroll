@@ -16,7 +16,7 @@ body {
   font-family: proxima-nova, sans-serif;
   background: white; }
 
-/* line 20, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+/* line 19, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
 section.paginafull {
   float: left;
   position: relative;
@@ -134,72 +134,72 @@ section.paginafull#inicio article#s01imgs {
     width: 15%;
     z-index: 1; }
 
-/* line 121, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+/* line 122, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
 section.paginafull#pilar01 article#nosotros {
   width: 37%;
   height: 100vh;
   float: left;
   position: relative;
   background: white; }
-  /* line 127, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+  /* line 128, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
   section.paginafull#pilar01 article#nosotros .nosotros-text {
     position: absolute;
     width: 90%;
     top: 5%;
     left: 9%; }
-    /* line 132, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+    /* line 133, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
     section.paginafull#pilar01 article#nosotros .nosotros-text p {
       font-size: 1.3em;
       font-weight: 600;
       line-height: 30px;
       text-transform: none;
       color: #000; }
-      /* line 138, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+      /* line 139, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
       section.paginafull#pilar01 article#nosotros .nosotros-text p span {
         color: #ec1c24; }
-  /* line 140, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+  /* line 141, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
   section.paginafull#pilar01 article#nosotros .nosotros-img {
     position: absolute; }
-    /* line 142, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+    /* line 143, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
     section.paginafull#pilar01 article#nosotros .nosotros-img img {
       width: 100%;
       height: auto; }
-  /* line 145, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+  /* line 146, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
   section.paginafull#pilar01 article#nosotros .nosotros-img#ni-01 {
     width: 78%;
     bottom: 10%;
     left: 42%; }
-  /* line 149, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+  /* line 150, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
   section.paginafull#pilar01 article#nosotros .nosotros-img#ni-02 {
     width: 120%;
     bottom: -4%;
     left: -40%; }
 
-/* line 154, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+/* line 155, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
 section.paginafull#pilar01 article#p01content {
   width: 63%;
   height: 100vh;
   float: left;
   background: white; }
-  /* line 159, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+  /* line 160, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
   section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl {
     position: absolute;
     width: 48%;
     bottom: 5%;
     right: 3%;
     z-index: 1; }
-    /* line 165, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+    /* line 166, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
     section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl #p01cw-img01 {
       position: absolute;
       width: 14%;
       top: 2%;
       left: 12%;
       z-index: 0; }
-      /* line 171, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+      /* line 172, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
       section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl #p01cw-img01 img {
         width: 100%;
         height: auto; }
-    /* line 174, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+    /* line 175, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
     section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl p {
       font-size: 1.2em;
       color: #ec1c24;
@@ -207,7 +207,7 @@ section.paginafull#pilar01 article#p01content {
       text-transform: uppercase;
       padding-right: 9%;
       margin-bottom: 5px; }
-    /* line 181, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+    /* line 182, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
     section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl h2 {
       font-size: 7.8em;
       line-height: 0.8em;
@@ -215,16 +215,103 @@ section.paginafull#pilar01 article#p01content {
       color: #000;
       text-align: right;
       text-transform: uppercase; }
-  /* line 188, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+  /* line 189, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
   section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-img02 {
     position: absolute;
     width: 45%;
     top: -25%;
     right: 5%;
     z-index: 0; }
-    /* line 194, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+    /* line 195, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
     section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-img02 img {
       width: 100%;
       height: auto; }
+
+/* line 201, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+section.paginafull#pilar02 article#p02work01 {
+  width: 47%;
+  height: 100vh;
+  float: left;
+  position: relative; }
+  /* line 206, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+  section.paginafull#pilar02 article#p02work01 #p02ww-img01 {
+    position: absolute;
+    width: 50%;
+    top: 10%;
+    left: -30%;
+    z-index: 1; }
+    /* line 212, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+    section.paginafull#pilar02 article#p02work01 #p02ww-img01 img {
+      width: 100%;
+      height: auto; }
+  /* line 215, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+  section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl {
+    position: absolute;
+    width: 98%;
+    top: 15%;
+    left: 14%;
+    z-index: 0; }
+    /* line 221, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+    section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl #p02ww-img02 {
+      position: absolute;
+      width: 8%;
+      top: 29%;
+      right: 4%;
+      z-index: 0; }
+      /* line 227, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+      section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl #p02ww-img02 img {
+        width: 100%;
+        height: auto; }
+    /* line 230, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+    section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl p {
+      position: absolute;
+      width: 45%;
+      font-size: 1.1em;
+      line-height: 1.2em;
+      color: #ec1c24;
+      text-align: left;
+      text-transform: uppercase;
+      right: 9%;
+      bottom: 22%; }
+    /* line 240, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+    section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl h2 {
+      font-size: 7.8em;
+      line-height: 0.8em;
+      font-weight: 900;
+      color: #000;
+      text-align: left;
+      text-transform: uppercase; }
+
+/* line 247, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+section.paginafull#pilar02 article#p02work02 {
+  width: 53%;
+  height: 100vh;
+  float: left;
+  position: relative; }
+  /* line 253, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+  section.paginafull#pilar02 article#p02work02 div img {
+    width: 100%;
+    height: auto; }
+  /* line 256, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+  section.paginafull#pilar02 article#p02work02 #p02ww-img03 {
+    position: absolute;
+    width: 85%;
+    bottom: 0%;
+    left: -50%;
+    z-index: 0; }
+  /* line 262, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+  section.paginafull#pilar02 article#p02work02 #p02ww-img04 {
+    position: absolute;
+    width: 65%;
+    top: -15%;
+    right: 5%;
+    z-index: 0; }
+  /* line 268, /Users/rcampos/OneDrive - OMNICOM-GT/BBDO The Work/BBDO/web development/Website 2020/web development/DevSite-BBDO-GT-30Años/css/style.sass */
+  section.paginafull#pilar02 article#p02work02 #p02ww-img05 {
+    position: absolute;
+    width: 23%;
+    bottom: 15%;
+    right: 10%;
+    z-index: 0; }
 
 /*# sourceMappingURL=style.css.map */
