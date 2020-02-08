@@ -2,7 +2,7 @@
 
 //FONTS
 @import url("https://use.typekit.net/sfn1efw.css");
-// font-family: proxima-nova, sans-serif;
+$bbdofont: proxima-nova, sans-serif
 
 // COLORS
 @import "variables.sass";
@@ -13,261 +13,437 @@
 *
     margin: 0
     padding: 0
+::-webkit-scrollbar
+    display: none
+.hidden
+    display: none!important
 body
     font-family: proxima-nova, sans-serif
     background: white
-section.paginafull
-    float: left
-    position: relative
-    width: 100%
-    height: 100vh
-    overflow-y: hidden
-//===--->  SECCION 01
-section.paginafull#inicio
-    //=-> TEXTO ANIMADO VERTICAL
-    article#holahello
-        width: 200px
-        height: 100vh
-        float: left
-        overflow: hidden
-        background: white
-        div
-            width: 25.5vh
-            width: calc(var(--vh, 1vh)*25.5)
-            -webkit-transform: rotate(-90deg) translate(-100vh)
-            transform: rotate(-90deg) translate(-100vh)
-            -webkit-transform: rotate(-90deg) translate(calc(var(--vh, 1vh)*-100))
-            transform: rotate(-90deg) translate(calc(var(--vh, 1vh)*-100))
-            -webkit-transform-origin: top left
+    .outer-wrapper
+        width: 100vh
+        height: 100vw
+        transform: rotate(-90deg) translateX(-100vh)
+        transform-origin: top left
+        overflow-y: scroll
+        overflow-x: hidden
+        position: absolute
+        scrollbar-width: none 
+        -ms-overflow-style: none
+        .wrapper
+            display: flex
+            flex-direction: row
+            width: 500vw
+            transform: rotate(90deg) translateY(-100vh)
             transform-origin: top left
-            white-space: nowrap
-            span
-                display: inline-block
-                font-size: 12em
-                font-family: proxima-nova, sans-serif
-                font-weight: 700
-                text-transform: uppercase
-                line-height: calc(var(--vh, 1vh)*28)
-                animation: animatetext 40s linear infinite
-                ul li
-                    list-style: none
-                    display: inline
-                    padding: 0 5px
-                    color: $black
-                    font-weight: 900
-                ul li:nth-child(odd)
-                    color: $red
-    //=->   BBDO GUATEMALA
-    article#bbdogt
-        width: 37%
-        height: 100vh
-        float: left
-        position: relative
-        background: $black
-        .hhbg-img
-            position: relative
-            width: 200px
-            top: 35px
-            left: 45px
-            img
-                width: 100%
-                height: auto
-        .hhbg-text
-            position: absolute
-            width: 90%
-            bottom: 0
-            left: 8%
-            p
-                font-size: 1.5em
-                font-weight: 600
-                line-height: 30px
-                text-transform: none
-                color: #ffffff
-                span
-                    color: $red
-                    text-transform: uppercase
-    //=->   IMAGENES SECCION 01
-    article#s01imgs
-        width: calc(63% - 200px)
-        height: 100vh
-        float: left
-        background: white
-        .s01i-wrapp
-            position: absolute
-            img
-                width: 100%
-        #s01iw-01
-            top: 0
-            left: 35%
-            width: 47%
-            z-index: 3
-        #s01iw-02
-            bottom: 0
-            left: 53%
-            width: 30%
-            z-index: 2
-        #s01iw-03
-            bottom: -2%
-            right: 3%
-            width: 38%
-            z-index: 1
-        #s01iw-04
-            bottom: -5%
-            right: 10%
-            width: 15%
-            z-index: 1
-//===--->  SECCION 02
-section.paginafull#pilar01
-    //=->   NOSOTROS
-    article#nosotros
-        width: 37%
-        height: 100vh
-        float: left
-        position: relative
-        background: white
-        .nosotros-text
-            position: absolute
-            width: 90%
-            top: 5%
-            left: 9%
-            p
-                font-size: 1.3em
-                font-weight: 600
-                line-height: 30px
-                text-transform: none
-                color: $black
-                span
-                    color: $red
-        .nosotros-img
-            position: absolute
-            img
-                width: 100%
-                height: auto
-        .nosotros-img#ni-01
-            width: 78%
-            bottom: 10%
-            left: 42%
-        .nosotros-img#ni-02
-            width: 120%
-            bottom: -4%
-            left: -40%
-    //=->   IMAGENES PILAR 01
-    article#p01content
-        width: 63%
-        height: 100vh
-        float: left
-        background: white
-        .p01c-wrapp#p01cw-ttl
-            position: absolute
-            width: 48%
-            bottom: 5%
-            right: 3%
-            z-index: 1
-            #p01cw-img01
-                position: absolute
-                width: 14%
-                top: 2%
-                left: 12%
-                z-index: 0
-                img
-                    width: 100%
-                    height: auto
-            p
-                font-size: 1.2em
-                color: $red
-                text-align: right
-                text-transform: uppercase
-                padding-right: 9%
-                margin-bottom: 5px
-            h2
-                font-size: 7.8em
-                line-height: 0.8em
-                font-weight: 900
-                color: $black
-                text-align: right
-                text-transform: uppercase
-        .p01c-wrapp#p01cw-img02
-            position: absolute
-            width: 45%
-            top: -25%
-            right: 5%
-            z-index: 0
-            img
-                width: 100%
-                height: auto
-//===--->  SECCION 03
-section.paginafull#pilar02
-    //=->   WORK
-    article#p02work01
-        width: 47%
-        height: 100vh
-        float: left
-        position: relative
-        #p02ww-img01
-            position: absolute
-            width: 50%
-            top: 10%
-            left: -30%
-            z-index: 1
-            img
-                width: 100%
-                height: auto
-        .p02w-wrapp#p02ww-ttl
-            position: absolute
-            width: 98%
-            top: 15%
-            left: 14%
-            z-index: 0
-            #p02ww-img02
-                position: absolute
-                width: 8%
-                top: 29%
-                right: 4%
-                z-index: 0
-                img
-                    width: 100%
-                    height: auto
-            p
-                position: absolute
-                width: 45%
-                font-size: 1.1em
-                line-height: 1.2em
-                color: $red
-                text-align: left
-                text-transform: uppercase
-                right: 9%
-                bottom: 22%
-            h2
-                font-size: 7.8em
-                line-height: 0.8em
-                font-weight: 900
-                color: $black
-                text-align: left
-                text-transform: uppercase
-    article#p02work02
-        width: 53%
-        height: 100vh
-        float: left
-        position: relative
-        div
-            img
-                width: 100%
-                height: auto
-        #p02ww-img03
-            position: absolute
-            width: 85%
-            bottom: 0%
-            left: -50%
-            z-index: 0
-        #p02ww-img04
-            position: absolute
-            width: 65%
-            top: -15%
-            right: 5%
-            z-index: 0
-        #p02ww-img05
-            position: absolute
-            width: 23%
-            bottom: 15%
-            right: 10%
-            z-index: 0
+            section.paginafull
+                float: left
+                position: relative
+                width: 100vw
+                height: 100vh
+            //===--->  SECCION 01
+            section.paginafull#inicio
+                //=-> TEXTO ANIMADO VERTICAL
+                article#holahello
+                    width: 200px
+                    height: 100vh
+                    float: left
+                    overflow: hidden
+                    background: white
+                    div
+                        width: 25.5vh
+                        width: calc(var(--vh, 1vh)*25.5)
+                        -webkit-transform: rotate(-90deg) translate(-100vh)
+                        transform: rotate(-90deg) translate(-100vh)
+                        -webkit-transform: rotate(-90deg) translate(calc(var(--vh, 1vh)*-100))
+                        transform: rotate(-90deg) translate(calc(var(--vh, 1vh)*-100))
+                        -webkit-transform-origin: top left
+                        transform-origin: top left
+                        white-space: nowrap
+                        span
+                            display: inline-block
+                            font-size: 12em
+                            font-family: proxima-nova, sans-serif
+                            font-weight: 700
+                            text-transform: uppercase
+                            line-height: calc(var(--vh, 1vh)*28)
+                            animation: animatetext 40s linear infinite
+                            ul li
+                                list-style: none
+                                display: inline
+                                padding: 0 5px
+                                color: $black
+                                font-weight: 900
+                            ul li:nth-child(odd)
+                                color: $red
+                //=->   BBDO GUATEMALA
+                article#bbdogt
+                    width: 37%
+                    height: 100vh
+                    float: left
+                    position: relative
+                    background: $black
+                    .hhbg-img
+                        position: relative
+                        width: 200px
+                        top: 35px
+                        left: 45px
+                        img
+                            width: 100%
+                            height: auto
+                    .hhbg-text
+                        position: absolute
+                        width: 90%
+                        bottom: 0
+                        left: 8%
+                        p
+                            font-size: 1.5em
+                            font-weight: 600
+                            line-height: 30px
+                            text-transform: none
+                            color: #ffffff
+                            span
+                                color: $red
+                                text-transform: uppercase
+                //=->   IMAGENES SECCION 01
+                article#s01imgs
+                    width: calc(63% - 200px)
+                    height: 100vh
+                    float: left
+                    background: white
+                    .s01i-wrapp
+                        position: absolute
+                        img
+                            width: 100%
+                    #s01iw-01
+                        top: 0
+                        left: 35%
+                        width: 47%
+                        z-index: 3
+                    #s01iw-02
+                        bottom: 0
+                        left: 53%
+                        width: 30%
+                        z-index: 2
+                    #s01iw-03
+                        bottom: -2%
+                        right: 3%
+                        width: 38%
+                        z-index: 1
+                    #s01iw-04
+                        bottom: -5%
+                        right: 10%
+                        width: 15%
+                        z-index: 1
+            //===--->  SECCION 02
+            section.paginafull#pilar01
+                //=->   NOSOTROS
+                article#nosotros
+                    width: 37%
+                    height: 100vh
+                    float: left
+                    position: relative
+                    background: white
+                    .nosotros-text
+                        position: absolute
+                        width: 90%
+                        top: 5%
+                        left: 9%
+                        p
+                            font-size: 1.3em
+                            font-weight: 600
+                            line-height: 30px
+                            text-transform: none
+                            color: $black
+                            span
+                                color: $red
+                    .nosotros-img
+                        position: absolute
+                        img
+                            width: 100%
+                            height: auto
+                    .nosotros-img#ni-01
+                        width: 78%
+                        bottom: 10%
+                        left: 42%
+                    .nosotros-img#ni-02
+                        width: 120%
+                        bottom: -4%
+                        left: -40%
+                //=->   IMAGENES PILAR 01
+                article#p01content
+                    width: 63%
+                    height: 100vh
+                    float: left
+                    background: white
+                    .p01c-wrapp#p01cw-ttl
+                        position: absolute
+                        width: 48%
+                        bottom: 5%
+                        right: 3%
+                        z-index: 1
+                        #p01cw-img01
+                            position: absolute
+                            width: 14%
+                            top: 2%
+                            left: 12%
+                            z-index: 0
+                            img
+                                width: 100%
+                                height: auto
+                        p
+                            font-size: 1.2em
+                            color: $red
+                            text-align: right
+                            text-transform: uppercase
+                            padding-right: 9%
+                            margin-bottom: 5px
+                        h2
+                            font-size: 7.8em
+                            line-height: 0.8em
+                            font-weight: 900
+                            color: $black
+                            text-align: right
+                            text-transform: uppercase
+                    .p01c-wrapp#p01cw-img02
+                        position: absolute
+                        width: 45%
+                        top: -25%
+                        right: 5%
+                        z-index: 0
+                        img
+                            width: 100%
+                            height: auto
+            //===--->  SECCION 03
+            section.paginafull#pilar02
+                //=->   WORK
+                article#p02work01
+                    width: 47%
+                    height: 100vh
+                    float: left
+                    position: relative
+                    #p02ww-img01
+                        position: absolute
+                        width: 50%
+                        top: 10%
+                        left: -30%
+                        z-index: 1
+                        img
+                            width: 100%
+                            height: auto
+                    .p02w-wrapp#p02ww-ttl
+                        position: absolute
+                        width: 98%
+                        top: 15%
+                        left: 14%
+                        z-index: 0
+                        #p02ww-img02
+                            position: absolute
+                            width: 8%
+                            top: 29%
+                            right: 4%
+                            z-index: 0
+                            img
+                                width: 100%
+                                height: auto
+                        p
+                            position: absolute
+                            width: 45%
+                            font-size: 1.1em
+                            line-height: 1.2em
+                            color: $red
+                            text-align: left
+                            text-transform: uppercase
+                            right: 9%
+                            bottom: 22%
+                        h2
+                            font-size: 7.8em
+                            line-height: 0.8em
+                            font-weight: 900
+                            color: $black
+                            text-align: left
+                            text-transform: uppercase
+                article#p02work02
+                    width: 53%
+                    height: 100vh
+                    float: left
+                    position: relative
+                    div
+                        img
+                            width: 100%
+                            height: auto
+                    #p02ww-img03
+                        position: absolute
+                        width: 85%
+                        bottom: 0%
+                        left: -50%
+                        z-index: 0
+                    #p02ww-img04
+                        position: absolute
+                        width: 65%
+                        top: -15%
+                        right: 5%
+                        z-index: 0
+                    #p02ww-img05
+                        position: absolute
+                        width: 23%
+                        bottom: 15%
+                        right: 10%
+                        z-index: 0
+            //===--->  SECCION 04
+            section.paginafull#pilar03
+                //=->   WORK
+                article#p03work03
+                    width: 65%
+                    height: 100vh
+                    float: left
+                    position: relative
+                    div
+                        img
+                            width: 100%
+                            height: auto
+                    #p03ww-img01
+                        position: absolute
+                        width: 25%
+                        top: 20%
+                        left: -10%
+                        z-index: 0
+                    #p03ww-img02
+                        position: absolute
+                        width: 15%
+                        top: 2%
+                        left: 20%
+                        z-index: 0
+                    #p03ww-img03
+                        position: absolute
+                        width: 18%
+                        top: 22%
+                        left: 45%
+                        z-index: 0
+                    #p03ww-img04
+                        position: absolute
+                        width: 42%
+                        bottom: 4%
+                        right: 15%
+                        z-index: 2
+                    .p03w-wrapp#p03ww-ttl
+                        position: absolute
+                        width: 75%
+                        bottom: 10%
+                        left: -26%
+                        z-index: 0
+                        #p03ww-img05
+                            position: absolute
+                            width: 20%
+                            top: 0%
+                            left: 28%
+                            z-index: 0
+                        p
+                            font-size: 1.1em
+                            line-height: 1.2em
+                            color: $red
+                            text-align: right
+                            text-transform: uppercase
+                            padding-left: 45%
+                        h2
+                            font-size: 7.8em
+                            line-height: 0.8em
+                            font-weight: 900
+                            color: $black
+                            text-align: right
+                            text-transform: uppercase
+                //=->   WORK
+                article#p03work04
+                    width: 35%
+                    height: 100vh
+                    float: left
+                    position: relative
+                    background: $red
+                    div
+                        img
+                            width: 100%
+                            height: auto
+                    #p03ww-img06
+                        position: absolute
+                        width: 185%
+                        bottom: 0%
+                        right: -40%
+                        z-index: 2
+            //===--->  SECCION 05
+            section.paginafull#contactanos
+                //=->   CONTACTO
+                article#p04contacto01
+                    width: 20%
+                    height: 100vh
+                    float: left
+                    position: relative
+                    background: $red
+                    z-index: 1
+                article#p04contacto02
+                    width: 80%
+                    height: 100vh
+                    float: left
+                    position: relative
+                    div
+                        img
+                            width: 100%
+                            height: auto
+                    #p04cw-img01
+                        position: absolute
+                        width: 85%
+                        bottom: 0%
+                        left: -25%
+                        z-index: -1
+                    #p04cw-form
+                        position: absolute
+                        width: 45%
+                        top: 30%
+                        right: 5%
+                        z-index: 1
+                        form
+                            .form-group
+                                display: flex
+                                flex-wrap: wrap
+                                label
+                                    display: none
+                                input, textarea
+                                    font-size: 1.3em
+                                    font-weight: 600
+                                    font-family: $bbdofont
+                                    border: none
+                                    border-bottom: solid 2px #000
+                                    border-radius: 0
+                                    padding-left: 0
+                                .help-block  ul
+                                    margin-bottom: -1rem;
+                            input.btn
+                                color: $black
+                                font-size: 1.2em
+                                font-weight: 600
+                                text-transform: uppercase
+                                background: $red
+                                border: none
+                                border-radius: 0
+                                padding: 12px 25px
+                                opacity: 1
+                    #p04cw-info
+                        position: absolute
+                        width: 35%
+                        bottom: 5%
+                        right: 5%
+                        z-index: 0
+                        h3
+                            font-size: 5em
+                            font-weight: 900
+                            color: $red
+                            text-align: right
+                            margin: 0
+                        p
+                            font-size: 0.9em
+                            font-weight: 700
+                            color: $black
+                            text-align: right
+                            margin: 0
+                            a
+                                color: $black
+                                text-decoration: none
