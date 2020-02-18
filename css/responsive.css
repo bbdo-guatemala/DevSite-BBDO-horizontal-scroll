@@ -155,7 +155,11 @@
     
     body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs {
         width: calc(63% - 80px);
-    }
+    }       
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #mousescroll {display: none;}       
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #swipescroll {display: block;}
     
     body .outer-wrapper .wrapper section.paginafull#inicio article#bbdogt .hhbg-text p {
         font-size: 0.9em;
@@ -203,6 +207,10 @@
 
 /*min-width: 480px*/
 @media only screen and (max-width: 480px) {
+    body .outer-wrapper .wrapper section.paginafull#inicio {
+        width: auto;
+    }
+    
     body .outer-wrapper .wrapper section.paginafull#inicio article#holahello {
         width: 60px;
     }
@@ -212,16 +220,55 @@
         line-height: calc(var(--vh, 1vh)*9);
     }
     
-    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs {
-        width: calc(63% - 60px);
+    body .outer-wrapper .wrapper section.paginafull#inicio article#bbdogt{
+        width: calc(var(--vw, 8.5vw)*8);
     }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#bbdogt .hhbg-text {
+        bottom: 10%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs {
+        width: calc(var(--vw, 9vw)*9);
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #mousescroll {display: none;}
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #s01iw-01 {
+        left: 45%;
+        width: 58%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #s01iw-02 {
+        left: 56%;
+        width: 35%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #s01iw-03 {
+        right: -5%;
+        width: 55%;
+    }
+    
 }
 
 
 /*min-width: 1366px*/
 @media only screen and (min-width: 1366px) {
+    body .outer-wrapper .wrapper section.paginafull#inicio article#holahello {
+        width: 170px;
+    }
+    
     body .outer-wrapper .wrapper section.paginafull#inicio article#holahello div span {
         line-height: calc(var(--vh, 1vh)*19);
     }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl #p01cw-img01 {
+        right: 65%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl {
+        width: 87%;
+    }
+    
 }
 
