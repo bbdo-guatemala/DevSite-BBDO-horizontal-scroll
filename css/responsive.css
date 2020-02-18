@@ -1,0 +1,227 @@
+/*===--- RESPONSIVE STYLE ---===*/
+/* RECOMENDED BREAKPOINTS:
+//-- Min-width: 320px (smaller phone viewpoints)
+//-- Min-width: 480px (small devices and most phones)
+//-- Min-width: 768px (most tablets)
+//-- Min-width: 992px (smaller desktop viewpoints)
+//-- Min-width: 1200px (large devices and wide screens)
+//-- Min-width: 1366px (XL devices and wide screens)/*
+
+
+    
+/*max-width: 1200px*/
+@media only screen and (max-width: 1200px) {
+    body .outer-wrapper .wrapper section.paginafull#inicio article#holahello {
+        width: 150px;
+    }
+    body .outer-wrapper .wrapper section.paginafull#inicio article#holahello div span {
+        font-size: 11em;
+        line-height: calc(var(--vh, 1vh)*18);
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs {
+        width: calc(63% - 150px);
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl {
+        width: 56%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl #p01cw-img01 {
+        left: 6%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl {
+        width: 120%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl #p02ww-img02 {
+        top: 22%;
+        right: 2%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl p {
+        width: 52%;
+        right: 2%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 .p03w-wrapp#p03ww-ttl #p03ww-img05 {
+        left: 16%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 .p03w-wrapp#p03ww-ttl p {
+        padding-left: 35%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-img01 {
+        left: -28%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-form {
+        top: 20%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-form form .form-group input, body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-form form .form-group textarea {
+        font-size: 1.1em;
+    }
+    
+}
+    
+/*max-width: 992px*/
+@media only screen and (max-width: 992px) {
+    body .outer-wrapper .wrapper section.paginafull#inicio article#holahello {
+        width: 100px;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#holahello div span {
+        font-size: 7em;
+        line-height: calc(var(--vh, 1vh)*18);
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#bbdogt .hhbg-text p {
+        font-size: 1em;
+        line-height: 20px;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs {
+        width: calc(63% - 100px);
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#nosotros .nosotros-text p {
+        font-size: 1.1em;
+        line-height: 24px;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl p {
+        font-size: 0.8em;
+        padding-right: 5%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl h2 {
+        font-size: 5em;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl h2 {
+        font-size: 4.9em;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl p {
+        font-size: 0.7em;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 .p03w-wrapp#p03ww-ttl {
+        width: 87%;
+        left: -50%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 .p03w-wrapp#p03ww-ttl h2 {
+        font-size: 6em;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 .p03w-wrapp#p03ww-ttl p {
+        font-size: 0.9em;
+        padding-left: 35%;
+        margin-bottom: 0;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 .p03w-wrapp#p03ww-ttl #p03ww-img05 {
+        width: 18%;
+        left: 18%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-img01 {
+        left: -28%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-form {
+        top: 10%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-form form .form-group input, body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-form form .form-group textarea {
+        font-size: 1em;
+    }
+}
+
+/* max-width: 768px */
+@media only screen and (max-width: 783px) {
+    body .outer-wrapper .wrapper section.paginafull#inicio article#holahello {
+        width: 80px;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#holahello div span {
+        font-size: 6em;
+        line-height: calc(var(--vh, 1vh)*20);
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs {
+        width: calc(63% - 80px);
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#bbdogt .hhbg-text p {
+        font-size: 0.9em;
+        line-height: 18px;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#nosotros .nosotros-text p {
+        font-size: 0.8em;
+        line-height: 18px;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#nosotros .nosotros-img#ni-01 {
+        bottom: 7%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl {
+        width: 50%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl {
+        width: 105%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-form {
+        top: 5%;
+        right: 12%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-form form .form-group input, body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-form form .form-group textarea {
+        font-size: 0.8em;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-info {
+        width: 55%;
+        bottom: 2%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-info h3 {
+        font-size: 4em;
+        line-height: 1em;
+    }
+    
+}
+
+
+/*min-width: 480px*/
+@media only screen and (max-width: 480px) {
+    body .outer-wrapper .wrapper section.paginafull#inicio article#holahello {
+        width: 60px;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#holahello div span {
+        font-size: 4em;
+        line-height: calc(var(--vh, 1vh)*9);
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs {
+        width: calc(63% - 60px);
+    }
+}
+
+
+/*min-width: 1366px*/
+@media only screen and (min-width: 1366px) {
+    body .outer-wrapper .wrapper section.paginafull#inicio article#holahello div span {
+        line-height: calc(var(--vh, 1vh)*19);
+    }
+}
+
