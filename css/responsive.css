@@ -207,8 +207,15 @@
 
 /*min-width: 480px*/
 @media only screen and (max-width: 480px) {
-    body .outer-wrapper .wrapper section.paginafull#inicio {
+    body .outer-wrapper .wrapper section.paginafull#inicio,
+    body .outer-wrapper .wrapper section.paginafull#pilar01,
+    body .outer-wrapper .wrapper section.paginafull#pilar02,
+    body .outer-wrapper .wrapper section.paginafull#pilar03,
+    body .outer-wrapper .wrapper section.paginafull#contactanos {
         width: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        float: unset;
     }
     
     body .outer-wrapper .wrapper section.paginafull#inicio article#holahello {
@@ -220,7 +227,7 @@
         line-height: calc(var(--vh, 1vh)*9);
     }
     
-    body .outer-wrapper .wrapper section.paginafull#inicio article#bbdogt{
+    body .outer-wrapper .wrapper section.paginafull#inicio article#bbdogt {
         width: calc(var(--vw, 8.5vw)*8);
     }
     
@@ -247,6 +254,147 @@
     body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #s01iw-03 {
         right: -5%;
         width: 55%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#nosotros {
+        width: calc(var(--vh, 7vh)*7);
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#nosotros .nosotros-text {
+        width: 98%;
+        left: 1%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#nosotros .nosotros-text p {
+        font-size: 1.1em;
+        line-height: 22px;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#nosotros .nosotros-img#ni-01 {
+        width: 90%;
+        bottom: 20%;
+        left: 8%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content {
+        width: calc(var(--vh, 8vh)*8);
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl {
+        width: 54%;
+        right: 1%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl p {
+        font-size: 0.9em;
+        padding-right: 0;
+        margin-bottom: 0;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl h2 {
+        font-size: 5em;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-img02 {
+        top: -15%;
+        width: 48%;
+        right: -3%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 {
+        width: calc(var(--vh, 8vh)*8);
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl {
+        width: 85%;
+        top: 25%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl h2 {
+        font-size: 5.3em;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl p {
+        font-size: 0.8em;
+        bottom: 17%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work02 {
+        width: calc(var(--vh, 8vh)*8);
+        position: absolute;
+        left: 14%;
+        z-index: 1;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work02 #p02ww-img03 {
+        width: 100%;
+        left: 0%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work02 #p02ww-img05 {
+        bottom: 48%;
+        right: 25%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 {
+        width: calc(var(--vh, 9vh)*9);
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 #p03ww-img01 {
+        left: 0%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 #p03ww-img02 {
+        left: 35%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 #p03ww-img03 {
+        width: 25%;
+        left: 45%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 #p03ww-img04 {
+        width: 30%;
+        left: 70%;
+        bottom: 0%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 .p03w-wrapp#p03ww-ttl {
+        width: 62%;
+        left: 10%;
+        bottom: 1%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 .p03w-wrapp#p03ww-ttl #p03ww-img05 {
+        width: 15%;
+        left: 11%;
+        top: 3%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 .p03w-wrapp#p03ww-ttl p {
+        padding-left: 20%;
+        padding-right: 5%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 .p03w-wrapp#p03ww-ttl h2 {
+        font-size: 5em;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work04 {
+        width: calc(var(--vh, 9vh)*9);
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work04 #p03ww-img06 {
+        width: 110%;
+        right: 21%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto01 {
+        width: calc(var(--vh, 3vh)*4);
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 {
+        width: calc(var(--vh, 9vh)*9);
     }
     
 }
