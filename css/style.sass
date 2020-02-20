@@ -41,12 +41,16 @@ body
                 position: relative
                 width: 100vw
                 height: 100vh
+            //===--->  SECCION GENERAL
+            section.paginafull
+                //=-> ARTICLE GENERAL
+                article
+                    height: calc(100vh - 45px)
             //===--->  SECCION 01
             section.paginafull#inicio
                 //=-> TEXTO ANIMADO VERTICAL
                 article#holahello
                     width: 200px
-                    height: 100vh
                     float: left
                     overflow: hidden
                     background: white
@@ -79,7 +83,6 @@ body
                 //=->   BBDO GUATEMALA
                 article#bbdogt
                     width: 37%
-                    height: 100vh
                     float: left
                     position: relative
                     background: $black
@@ -108,7 +111,6 @@ body
                 //=->   IMAGENES SECCION 01
                 article#s01imgs
                     width: calc(63% - 200px)
-                    height: 100vh
                     float: left
                     background: white
                     .s01i-wrapp
@@ -117,12 +119,12 @@ body
                             width: 100%
                     #swipescroll
                         display: none
-                        bottom: 1%
+                        bottom: 10%
                         left: 49%
                         width: 7%
                         z-index: 3
                     #mousescroll
-                        bottom: 1%
+                        bottom: 35%
                         left: 51%
                         width: 3%
                         z-index: 3
@@ -149,7 +151,7 @@ body
                         width: 38%
                         z-index: 2
                     #s01iw-04
-                        bottom: -5%
+                        bottom: 0%
                         right: -10%
                         width: 15%
                         z-index: 4
@@ -158,7 +160,6 @@ body
                 //=->   NOSOTROS
                 article#nosotros
                     width: 37%
-                    height: 100vh
                     float: left
                     position: relative
                     background: white
@@ -194,7 +195,6 @@ body
                 //=->   IMAGENES PILAR 01
                 article#p01content
                     width: 63%
-                    height: 100vh
                     float: left
                     background: white
                     .p01c-wrapp#p01cw-ttl
@@ -240,7 +240,6 @@ body
                 //=->   WORK
                 article#p02work01
                     width: 47%
-                    height: 100vh
                     float: left
                     position: relative
                     #p02ww-img01
@@ -286,7 +285,6 @@ body
                             text-transform: uppercase
                 article#p02work02
                     width: 53%
-                    height: 100vh
                     float: left
                     position: relative
                     div
@@ -316,7 +314,6 @@ body
                 //=->   WORK
                 article#p03work03
                     width: 65%
-                    height: 100vh
                     float: left
                     position: relative
                     div
@@ -377,7 +374,6 @@ body
                 //=->   WORK
                 article#p03work04
                     width: 35%
-                    height: 100vh
                     float: left
                     position: relative
                     background: $red
@@ -396,14 +392,12 @@ body
                 //=->   CONTACTO
                 article#p04contacto01
                     width: 20%
-                    height: 100vh
                     float: left
                     position: relative
                     background: $red
                     z-index: 1
                 article#p04contacto02
                     width: 80%
-                    height: 100vh
                     float: left
                     position: relative
                     div
@@ -470,5 +464,43 @@ body
                                 color: $black
                                 text-decoration: none
 
-
-
+    .menubar
+        width: 100%
+        height: 45px
+        position: absolute
+        display: flex
+        flex-direction: row
+        background: $red
+        bottom: 0
+        .menu-logo
+            width: 90px
+            height: 30px
+            position: absolute
+            left: 10px
+            top: 7px
+            img
+                width: 100%
+        .menu-socialmedia
+            width: 200px
+            height: 40px
+            position: absolute
+            right: 10px
+            top: 3px
+            text-align: right
+            a
+                color: white
+                font-size: 26px
+                line-height: 1.5
+                padding-right: 10px
+                
+.videoWrapper
+    position: relative
+    padding-bottom: 56.25%
+    padding-top: 25px
+    height: 0
+.videoWrapper iframe
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%

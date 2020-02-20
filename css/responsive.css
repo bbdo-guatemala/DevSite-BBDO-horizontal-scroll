@@ -400,6 +400,18 @@
 }
 
 
+/*min-width: 380px*/
+@media only screen and (max-width: 380px) {
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl #p01cw-img01 {
+        left: 15%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl {
+        width: 92%;
+    }
+}
+
+
 /*min-width: 1366px*/
 @media only screen and (min-width: 1366px) {
     body .outer-wrapper .wrapper section.paginafull#inicio article#holahello {
