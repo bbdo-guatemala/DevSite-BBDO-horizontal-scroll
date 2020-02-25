@@ -153,17 +153,32 @@
         line-height: calc(var(--vh, 1vh)*20);
     }
     
+    body .outer-wrapper .wrapper section.paginafull#inicio article#bbdogt .hhbg-text {
+        bottom: 10%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#bbdogt .hhbg-text p {
+        font-size: 0.9em;
+        line-height: 18px;
+    }
+    
     body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs {
         width: calc(63% - 80px);
     }       
     
     body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #mousescroll {display: none;}       
     
-    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #swipescroll {display: block;}
+    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #swipescroll {
+        display: block;
+        bottom: 30%;
+    }
     
-    body .outer-wrapper .wrapper section.paginafull#inicio article#bbdogt .hhbg-text p {
-        font-size: 0.9em;
-        line-height: 18px;
+    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #s01iw-02 {
+        bottom: 7%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #s01iw-04 {
+        bottom: 8%;
     }
     
     body .outer-wrapper .wrapper section.paginafull#pilar01 article#nosotros .nosotros-text p {
@@ -177,6 +192,7 @@
     
     body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl {
         width: 50%;
+        bottom: 10%;
     }
     
     body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl {
@@ -185,7 +201,8 @@
     
     body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-form {
         top: 5%;
-        right: 12%;
+        right: 5%;
+        width: 55%;
     }
     
     body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-form form .form-group input, body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-form form .form-group textarea {
@@ -193,8 +210,9 @@
     }
     
     body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-info {
-        width: 55%;
-        bottom: 2%;
+        width: 60%;
+        bottom: 10%;
+        right: 1%;
     }
     
     body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto02 #p04cw-info h3 {
@@ -205,7 +223,7 @@
 }
 
 
-/*min-width: 480px*/
+/*max-width: 480px*/
 @media only screen and (max-width: 480px) {
     body .outer-wrapper .wrapper section.paginafull#inicio,
     body .outer-wrapper .wrapper section.paginafull#pilar01,
@@ -220,6 +238,10 @@
     
     body .outer-wrapper .wrapper section.paginafull#inicio article#holahello {
         width: 60px;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#bbdogt .hhbg-img {
+        width: 175px;
     }
     
     body .outer-wrapper .wrapper section.paginafull#inicio article#holahello div span {
@@ -244,16 +266,22 @@
     body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #s01iw-01 {
         left: 45%;
         width: 58%;
+        bottom: 5%;
     }
     
     body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #s01iw-02 {
         left: 56%;
+        bottom: 5%;
         width: 35%;
     }
     
     body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #s01iw-03 {
         right: -5%;
         width: 55%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#inicio article#s01imgs #s01iw-04 {
+        bottom: 5%;
     }
     
     body .outer-wrapper .wrapper section.paginafull#pilar01 article#nosotros {
@@ -274,6 +302,10 @@
         width: 90%;
         bottom: 20%;
         left: 8%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#nosotros .nosotros-img#ni-02 {
+        bottom: 5%;
     }
     
     body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content {
@@ -362,7 +394,7 @@
     body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 .p03w-wrapp#p03ww-ttl {
         width: 62%;
         left: 10%;
-        bottom: 1%;
+        bottom: 8%;
     }
     
     body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work03 .p03w-wrapp#p03ww-ttl #p03ww-img05 {
@@ -387,6 +419,7 @@
     body .outer-wrapper .wrapper section.paginafull#pilar03 article#p03work04 #p03ww-img06 {
         width: 110%;
         right: 21%;
+        bottom: 6%;
     }
     
     body .outer-wrapper .wrapper section.paginafull#contactanos article#p04contacto01 {
@@ -397,17 +430,47 @@
         width: calc(var(--vh, 9vh)*9);
     }
     
+    body.theworkpage .container .row .col .portf-item .portfittl p {
+        font-size: small;
+        line-height: 1;
+        padding-top: 5px;
+    }
+    
 }
 
 
-/*min-width: 380px*/
+/*max-width: 380px*/
 @media only screen and (max-width: 380px) {
+    body .outer-wrapper .wrapper section.paginafull#inicio article#bbdogt .hhbg-img {
+        left: 25px;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar01 article#nosotros .nosotros-text p {
+        font-size: 0.9em;
+        line-height: 20px;
+    }
+    
     body .outer-wrapper .wrapper section.paginafull#pilar01 article#p01content .p01c-wrapp#p01cw-ttl #p01cw-img01 {
-        left: 15%;
+        left: 7%;
     }
     
     body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl {
         width: 92%;
+    }
+}
+
+/*max-width: 330px*/
+@media only screen and (max-width: 330px) {
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl #p02ww-img02 {
+        top: 30%;
+        right: -14%;
+    }
+    
+    body .outer-wrapper .wrapper section.paginafull#pilar02 article#p02work01 .p02w-wrapp#p02ww-ttl p {
+        font-size: 0.7em;
+        bottom: 22%;
+        right: -5%;
     }
 }
 

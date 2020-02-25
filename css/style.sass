@@ -45,7 +45,7 @@ body
             section.paginafull
                 //=-> ARTICLE GENERAL
                 article
-                    height: calc(100vh - 45px)
+                    height: 100vh
             //===--->  SECCION 01
             section.paginafull#inicio
                 //=-> TEXTO ANIMADO VERTICAL
@@ -426,6 +426,7 @@ body
                                     font-size: 1.3em
                                     font-weight: 600
                                     font-family: $bbdofont
+                                    min-width: 300px;
                                     border: none
                                     border-bottom: solid 2px #000
                                     border-radius: 0
@@ -467,7 +468,7 @@ body
     .menubar
         width: 100%
         height: 45px
-        position: absolute
+        position: fixed
         display: flex
         flex-direction: row
         background: $red
@@ -492,7 +493,49 @@ body
                 font-size: 26px
                 line-height: 1.5
                 padding-right: 10px
-                
+body.theworkpage
+    .container .row
+        .col
+            padding: 0
+            .portf-item
+                span
+                    width: 50px
+                    height: 50px
+                    position: absolute
+                    left: calc(50% - 24px)
+                    top: calc(45% - 15px)
+                    text-align: center
+                    z-index: 100
+                    i
+                        font-size: 36px
+                        line-height: 1.5
+                        color: #ffffffad
+                &:hover span i
+                    color: white
+                img
+                    width: 100%
+                    filter: brightness(0.4)
+                    &:hover
+                        filter: unset
+                .portfittl
+                    width: 100%
+                    min-height: 40px
+                    background: $black
+                    p
+                        text-align: center
+                        font-size: 18px
+                        font-weight: 600
+                        line-height: 1.9
+                        text-transform: uppercase
+                        color: #ffffffad
+                        background: $black
+                        margin-bottom: 0
+                    &:hover p
+                            color: white
+            
+
+.modal-backdrop.show
+    opacity: .95
 .videoWrapper
     position: relative
     padding-bottom: 56.25%

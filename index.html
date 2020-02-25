@@ -5,12 +5,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>BBDO Guatemala</title>
+        <meta name="theme-color" content="#000" />
         
         <!-- Bootstrap 4 -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/animaciones2.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
@@ -20,9 +22,10 @@
         <script src="https://kit.fontawesome.com/07c647f697.js" crossorigin="anonymous"></script>
         
     </head>
+<!-- <body onload="animateHTML().init();"> -->
     <body>
         <div class="outer-wrapper">
-            <div class="wrapper">
+            <div class="wrapper" id="wrapper">
                 <section class="paginafull" id="inicio">
                     <article id="holahello">
                         <div>
@@ -72,16 +75,16 @@
                         <div class="s01i-wrapp" id="swipescroll">
                             <img src="images/swipe.png" alt="Swipe">
                         </div>
-                        <div class="s01i-wrapp" id="s01iw-01" data-aos="fade-down">
+                        <div class="s01i-wrapp hidden1" id="s01iw-01" data-aos="fade-down">
                             <img src="images/img-mano@2x.png" alt="Mundo">
                         </div>
-                        <div class="s01i-wrapp" id="s01iw-02" data-aos="zoom-in-right">
+                        <div class="s01i-wrapp hidden1" id="s01iw-02" data-aos="zoom-in-right">
                             <img src="images/img-taxi@2x.png" alt="Taxi">
                         </div>
-                        <div class="s01i-wrapp" id="s01iw-03" data-aos="fade-right">
+                        <div class="s01i-wrapp hidden1" id="s01iw-03" data-aos="fade-right">
                             <img src="images/img-edificio@2x.png" alt="Edificio">
                         </div>
-                        <div class="s01i-wrapp" id="s01iw-04" data-aos="fade-right" data-aos-duration="3000" data-aos-anchor="#s01iw-02">
+                        <div class="s01i-wrapp hidden1" id="s01iw-04" data-aos="fade-right" data-aos-duration="1000" data-aos-anchor="#s01iw-02">
                             <img src="images/bicicleta@2x.png" alt="Bicicleta">
                         </div>
                     </article>
@@ -91,33 +94,33 @@
                         <div class="nosotros-text">
                             <p>Un equipo multidisciplinario, compuesto por tradicionales, digitales, analistas de datos, antropólogos, artistas, y creativos, todos con la simple misión de cambiar la conducta de los consumidores, a través de estrategia y creatividad integral. Somos el trabajo total, <span>somos...</span></p>
                         </div>
-                        <div class="nosotros-img" id="ni-01" data-aos="fade-up" data-aos-duration="3000">
+                        <div class="nosotros-img hidden1" id="ni-01" data-aos="fade-up" data-aos-duration="1000">
                             <img src="images/the-work-circle@2x.png" alt="THE WORK THE WORK THE WORK">
                         </div>
-                        <div class="nosotros-img" id="ni-02" data-aos="fade-left">
+                        <div class="nosotros-img hidden1" id="ni-02" data-aos="fade-left">
                             <img src="images/cine-lux@2x.png" alt="Cine Lux">
                         </div>
                     </article>
                     <article id="p01content">
                         <div class="p01c-wrapp" id="p01cw-ttl">
-                            <div id="p01cw-img01" data-aos="fade-up-right">
+                            <div class=" hidden1" id="p01cw-img01" data-aos="fade-up-right">
                                 <img src="images/icon-arrow@2x.png" alt="flecha">
                             </div>
                             <p>CAMBIA LA CONDUCTA DE LAS PERSONAS</p>
                             <h2>TRABAJO <br>QUE</h2>
                         </div>
-                        <div class="p01c-wrapp astyle-01" id="p01cw-img02" data-aos="fade-down-left">
+                        <div class="p01c-wrapp astyle-01 hidden1" id="p01cw-img02" data-aos="fade-down-left">
                             <img src="images/cabeza-brain@2x.png" alt="Cabeza">
                         </div>
                     </article>
                 </section>
                 <section class="paginafull" id="pilar02">
                     <article id="p02work01">
-                        <div id="p02ww-img01" data-aos="fade-up-left">
+                        <div class=" hidden1" id="p02ww-img01" data-aos="fade-up-left">
                             <img src="images/cabeza-brain-02@2x.png" alt="Cabeza">
                         </div>
                         <div class="p02w-wrapp" id="p02ww-ttl">
-                            <div id="p02ww-img02" data-aos="fade-down">
+                            <div class=" hidden1" id="p02ww-img02" data-aos="fade-down">
                                 <img src="images/icon-arrow-02@2x.png" alt="flecha">
                             </div>
                             <h2>TRABAJO <br>QUE</h2>
@@ -125,33 +128,33 @@
                         </div>
                     </article>
                     <article id="p02work02">
-                        <div id="p02ww-img03" data-aos="fade-up">
+                        <div class=" hidden1" id="p02ww-img03" data-aos="fade-up">
                             <img src="images/pareja-medios@2x.png" alt="Pareja Medios">
                         </div>
-                        <div id="p02ww-img04" data-aos="fade-down">
+                        <div class=" hidden1" id="p02ww-img04" data-aos="fade-down">
                             <img src="images/coin-01@2x.png" alt="Moneda">
                         </div>
-                        <div id="p02ww-img05" data-aos="fade-down">
+                        <div class=" hidden1" id="p02ww-img05" data-aos="fade-down">
                             <img src="images/coin-02@2x.png" alt="Moneda">
                         </div>
                     </article>
                 </section>
                 <section class="paginafull" id="pilar03">
                     <article id="p03work03">
-                        <div id="p03ww-img01" data-aos="fade-up">
+                        <div class="hidden1" id="p03ww-img01" data-aos="fade-up">
                             <img src="images/coin-03@2x.png" alt="Moneda">
                         </div>
-                        <div id="p03ww-img02" data-aos="fade-down">
+                        <div class="hidden1" id="p03ww-img02" data-aos="fade-down">
                             <img src="images/coin-04@2x.png" alt="Moneda">
                         </div>
-                        <div id="p03ww-img03" data-aos="fade-down">
+                        <div class="hidden1" id="p03ww-img03" data-aos="fade-down">
                             <img src="images/coin-05@2x.png" alt="Moneda">
                         </div>
-                        <div id="p03ww-img04" data-aos="fade-down">
+                        <div class="hidden1" id="p03ww-img04" data-aos="fade-down">
                             <img src="images/coin-06@2x.png" alt="Moneda">
                         </div>
                         <div class="p03w-wrapp" id="p03ww-ttl">
-                            <div id="p03ww-img05" data-aos="fade-up">
+                            <div class="hidden1" id="p03ww-img05" data-aos="fade-up">
                                 <img src="images/icon-arrow-03@2x.png" alt="flecha">
                             </div>
                             <p>ES UN MULTIPLICADOR ECONÓNMICO PARA NUESTROS CLIENTES</p>
@@ -159,7 +162,7 @@
                         </div>
                     </article>
                     <article id="p03work04">
-                        <div id="p03ww-img06" data-aos="fade-in">
+                        <div class="hidden1" id="p03ww-img06" data-aos="fade-in">
                             <a href="the-work.html" target="_self"><img src="images/nuestro-trabajo-circulo@2x.png" alt="Nuestro Trabajo"></a>
                         </div>
                     </article>
@@ -169,7 +172,7 @@
                         <!-- RED BACKGROUND -->
                     </article>
                     <article id="p04contacto02">
-                        <div id="p04cw-img01" data-aos="fade-up-right">
+                        <div class="hidden1" id="p04cw-img01" data-aos="fade-up-right">
                             <img src="images/contactanos-ttl@2x.png" alt="Contáctanos">
                         </div>
                         <div id="p04cw-form">
@@ -222,7 +225,7 @@
         
         <div class="menubar">
             <div class="menu-logo">
-                <a href="\" target="_self" title="BBDO 30 años">
+                <a href="http://www.bbdo.com.gt/30bbdo/" target="_self" title="BBDO 30 años">
                     <img src="images/bbdo30-logo2.svg" alt="BBDO 30 Años">
                 </a>
             </div>
@@ -233,14 +236,70 @@
             </div>
         </div>
         
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+         <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
         <script src="js/validator.js"></script>
         <script src="js/contact.js"></script>
         
-        <script type="text/javascript">
-            AOS.init({
-                duration: 1000,
-            });
+        <script>
+            
+            document.addEventListener('DOMContentLoaded', function(event) {
+            animateHTML().init();
+            })
+
+
+            var animateHTML = function() {
+            var elems;
+            var windowHeight;
+
+            function init() {
+            elemswrap = document.getElementById("wrapper");
+            elems = document.querySelectorAll('.hidden1');
+            windowHeight = window.innerWidth-300;
+            console.log(windowHeight);
+            addEventHandlers();
+            checkPosition();
+            }
+
+
+            function addEventHandlers() {
+                window.addEventListener('resize', init);
+              }
+
+            var el = $(".outer-wrapper"),
+                lastY = el.scrollTop(),
+                lastX = el.scrollLeft();
+                el.on('scroll', function() {
+                  checkPosition();
+                });
+
+            function checkPosition() {
+              for (var i = 0; i < elems.length; i++) {
+                  var positionFromTop = elems[i].getBoundingClientRect().left;
+                  dataanim =  elems[i].dataset.aos;
+                  console.log(dataanim);
+                  if (positionFromTop - windowHeight <= 0) {
+                    elems[i].className = elems[i].className.replace(
+                    'hidden1',
+                    dataanim
+                    );
+                  }
+
+                  if ((elems[i].id != "p04cw-img01") ){
+                    if ((positionFromTop - (windowHeight) > 1) || (positionFromTop < 0)) {
+                      elems[i].className = elems[i].className.replace(
+                      dataanim,
+                      'hidden1'
+                      );
+                    }
+                  }
+            }
+            }
+
+            return {
+            init: init
+            };
+            };
+
         </script>
     </body>
 </html>
